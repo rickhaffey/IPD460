@@ -1,0 +1,65 @@
+﻿<ConfigurationSettings xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Database>
+    <DataSources>
+      <DataSource>
+        <ID>ECS DW</ID>
+        <ConnectionString>Provider=SQLNCLI10.1;Data Source=RHAFFEY-LAPTOP\SQL2008R2;Integrated Security=SSPI;Initial Catalog=ECS_DW</ConnectionString>
+        <ImpersonationInfo>
+          <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
+          <Account>clarityinternal\rhaffey</Account>
+          <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
+        </ImpersonationInfo>
+      </DataSource>
+    </DataSources>
+    <Dimensions>
+      <Dimension>
+        <ID>Time</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Unit</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Complaint</ID>
+      </Dimension>
+      <Dimension>
+        <ID>CrewMember</ID>
+      </Dimension>
+      <Dimension>
+        <ID>LevelOfCare</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Delay</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Location</ID>
+      </Dimension>
+    </Dimensions>
+    <Cubes>
+      <Cube>
+        <ID>New cube</ID>
+        <MeasureGroups>
+          <MeasureGroup>
+            <ID>CallResponseTimings</ID>
+            <Partitions>
+              <Partition>
+                <ID>CallResponseTimings</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+          <MeasureGroup>
+            <ID>CardiacCareTiming</ID>
+            <Partitions>
+              <Partition>
+                <ID>CardiacCareTiming</ID>
+              </Partition>
+            </Partitions>
+          </MeasureGroup>
+        </MeasureGroups>
+      </Cube>
+    </Cubes>
+    <DataSourceImpersonationInfo>
+      <ImpersonationMode>Default</ImpersonationMode>
+      <ImpersonationInfoSecurity>Unchanged</ImpersonationInfoSecurity>
+    </DataSourceImpersonationInfo>
+  </Database>
+</ConfigurationSettings>

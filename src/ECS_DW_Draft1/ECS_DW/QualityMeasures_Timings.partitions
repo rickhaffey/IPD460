@@ -1,0 +1,47 @@
+﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="f178e3b5-c62c-43e4-ad38-a13362b479e9" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
+  <ID>QualityMeasures_Timings</ID>
+  <MeasureGroups>
+    <MeasureGroup>
+      <ID>CallResponseTimings</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e1977f10-b72b-4963-85ba-7188771807bd">
+          <ID>CallResponseTimings</ID>
+          <Name>CallResponseTimings</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="TableBinding" dwd:design-time-name="c5f81cc0-9463-4635-98ce-233f932e538b">
+            <DataSourceID>ECS DW</DataSourceID>
+            <DbSchemaName>dbo</DbSchemaName>
+            <DbTableName>CallResponseTimings</DbTableName>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+    <MeasureGroup>
+      <ID>CardiacCareTiming</ID>
+      <Partitions>
+        <Partition dwd:design-time-name="e932f144-5378-4348-a4c8-5db42da92483">
+          <ID>CardiacCareTiming</ID>
+          <Name>CardiacCareTiming</Name>
+          <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
+          <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+          <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+          <State>Unprocessed</State>
+          <Source xsi:type="TableBinding" dwd:design-time-name="f6159d73-2340-4896-9879-bcf3aec9b6c9">
+            <DataSourceID>ECS DW</DataSourceID>
+            <DbSchemaName>dbo</DbSchemaName>
+            <DbTableName>CardiacCareTiming</DbTableName>
+          </Source>
+          <StorageMode>Molap</StorageMode>
+          <CurrentStorageMode>Molap</CurrentStorageMode>
+          <ProcessingMode>Regular</ProcessingMode>
+        </Partition>
+      </Partitions>
+    </MeasureGroup>
+  </MeasureGroups>
+</Cube>

@@ -1,0 +1,110 @@
+﻿<DeploymentSnapshot xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0">
+  <Target>
+    <Database>ECS_DW</Database>
+    <Server>RHAFFEY-LAPTOP\SQL2008R2</Server>
+    <ConnectionString>DataSource=RHAFFEY-LAPTOP\SQL2008R2;Timeout=0</ConnectionString>
+  </Target>
+  <Options>
+    <TransactionalDeployment>false</TransactionalDeployment>
+    <PartitionDeployment>DeployPartitions</PartitionDeployment>
+    <RoleDeployment>DeployRolesRetainMembers</RoleDeployment>
+    <ProcessingOption>DoNotProcess</ProcessingOption>
+    <OutputScript></OutputScript>
+    <ImpactAnalysisFile></ImpactAnalysisFile>
+    <ConfigurationSettingsDeployment>Deploy</ConfigurationSettingsDeployment>
+    <OptimizationSettingsDeployment>Deploy</OptimizationSettingsDeployment>
+    <WriteBackTableCreation>UseExisting</WriteBackTableCreation>
+  </Options>
+  <Snapshot>
+    <ObjectSnapshots>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.RelationalDataSource</Type>
+        <TimeStamp>8aiFHhv26GgLfAv8YSu32xd9gJ8=5/27/2013 9:57:14 AM5/27/2013 9:57:14 AM</TimeStamp>
+        <ID>
+          <String>ECS DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.DataSourceView</Type>
+        <TimeStamp>4L9Okkn/kN8a6CZO38Kvb70K6vw=5/27/2013 11:07:52 AM5/27/2013 9:58:08 AM</TimeStamp>
+        <ID>
+          <String>ECS_DW</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>ZBaumA2DR8idMn4CCNDBitjogpE=5/27/2013 10:00:46 AM5/27/2013 9:54:38 AM</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>V4BNA5frpe6YPZztUs/0bEPZ6Aw=5/27/2013 10:11:55 AM5/27/2013 9:54:38 AM</TimeStamp>
+        <ID>
+          <String>Unit</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>NRGkFiaDxoO694Ddz+mrEUrHtqI=5/27/2013 10:14:54 AM5/27/2013 9:54:38 AM</TimeStamp>
+        <ID>
+          <String>Complaint</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>HGelr2jnFSvdCgoLbGvxaPBSbns=5/27/2013 10:37:20 AM5/27/2013 9:54:38 AM</TimeStamp>
+        <ID>
+          <String>CrewMember</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>3yCYF1TX5pt1Us/6A0FU7pNe78s=5/27/2013 11:22:46 AM5/27/2013 9:54:38 AM</TimeStamp>
+        <ID>
+          <String>LevelOfCare</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>1JMzXuNPnebcyss89FGsTgJ5irQ=5/27/2013 11:24:25 AM5/27/2013 9:54:38 AM</TimeStamp>
+        <ID>
+          <String>Delay</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>/X+aBkTAB/aKNmPtLBisXSAjFGU=5/27/2013 11:29:42 AM5/27/2013 9:54:38 AM</TimeStamp>
+        <ID>
+          <String>Location</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Cube</Type>
+        <TimeStamp>oTEVnKRmPdT0r84KjxcM9RKXvLk=5/27/2013 11:24:25 AM5/27/2013 9:54:38 AMmpCfdAG/j/E0EHyFlJeFk+3B/oY=5/27/2013 10:09:58 AM5/27/2013 9:54:38 AM</TimeStamp>
+        <ID>
+          <String>New cube</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Role</Type>
+        <TimeStamp>at/LZwhhK+kZMEYsuWudil6USVE=5/27/2013 11:26:22 AM5/27/2013 11:26:22 AM</TimeStamp>
+        <ID>
+          <String>Role</String>
+        </ID>
+      </ObjectSnapshot>
+    </ObjectSnapshots>
+    <DatabaseSnapshot>
+      <Type>Microsoft.AnalysisServices.Database</Type>
+      <TimeStamp>SlgqcANG11etLyUZqiJ798uyqnk=5/27/2013 11:27:16 AM5/27/2013 9:43:01 AM</TimeStamp>
+      <ID>
+        <String>ECS_DW</String>
+      </ID>
+    </DatabaseSnapshot>
+    <Granularity>Coarse</Granularity>
+  </Snapshot>
+  <AssemblyLocations />
+  <ProcessingComplete>true</ProcessingComplete>
+  <LastDeployed>2013-05-27T16:29:51.356667Z</LastDeployed>
+</DeploymentSnapshot>
