@@ -74,7 +74,7 @@
           <ConfigurationSetting>
             <Id>ECS DW</Id>
             <Name>ECS DW</Name>
-            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=RHAFFEY-LAPTOP\SQL2008R2;Integrated Security=SSPI;Initial Catalog=ECS_DW</Value>
+            <Value xsi:type="xsd:string">Provider=SQLNCLI10.1;Data Source=RICK-LAPTOP\SS2008R2;Integrated Security=SSPI;Initial Catalog=ECS_DW</Value>
           </ConfigurationSetting>
         </ConnectionMappings>
         <ConnectionSecurityMappings>

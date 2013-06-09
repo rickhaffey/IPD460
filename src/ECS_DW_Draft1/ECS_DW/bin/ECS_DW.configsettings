@@ -3,10 +3,10 @@
     <DataSources>
       <DataSource>
         <ID>ECS DW</ID>
-        <ConnectionString>Provider=SQLNCLI10.1;Data Source=RHAFFEY-LAPTOP\SQL2008R2;Integrated Security=SSPI;Initial Catalog=ECS_DW</ConnectionString>
+        <ConnectionString>Provider=SQLNCLI10.1;Data Source=RICK-LAPTOP\SS2008R2;Integrated Security=SSPI;Initial Catalog=ECS_DW</ConnectionString>
         <ImpersonationInfo>
           <ImpersonationMode>ImpersonateAccount</ImpersonationMode>
-          <Account>clarityinternal\rhaffey</Account>
+          <Account>RICK-LAPTOP\Rick</Account>
           <ImpersonationInfoSecurity>PasswordRemoved</ImpersonationInfoSecurity>
         </ImpersonationInfo>
       </DataSource>

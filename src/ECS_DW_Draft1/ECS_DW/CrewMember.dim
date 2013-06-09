@@ -1,14 +1,14 @@
 ﻿<Dimension xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="9a24f33b-2ebc-4226-92d3-1e23df9944d4" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>CrewMember</ID>
   <Name>CrewMember</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3049" scrolltop="-7329" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="10980" y="16536" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3049" scrolltop="-7329" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8784" y="16563" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -65,8 +65,36 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
       <Value>100</Value>
     </Annotation>
+    <Annotation>
+      <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:ARDiagramLayout</Name>
+      <Value>
+        <DiagramLayout ZoomPercent="100" ViewPortX="0" ViewPortY="0" xmlns="">
+          <Shapes NodeWidth="174">
+            <Shape Id="Unit Crew Member Id" Expanded="false">
+              <Attributes>
+                <Attribute Id="Unit Crew Member Id" />
+                <Attribute Id="Hire Date" />
+              </Attributes>
+              <Position x="20" y="20" />
+            </Shape>
+            <Shape Id="Response Role" Expanded="false">
+              <Attributes>
+                <Attribute Id="Response Role" />
+              </Attributes>
+              <Position x="242" y="20" />
+            </Shape>
+            <Shape Id="Response Level" Expanded="false">
+              <Attributes>
+                <Attribute Id="Response Level" />
+              </Attributes>
+              <Position x="465" y="20" />
+            </Shape>
+          </Shapes>
+        </DiagramLayout>
+      </Value>
+    </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Source xsi:type="DataSourceViewBinding" dwd:design-time-name="f120799a-a361-431d-a967-11441e8976b9">
     <DataSourceViewID>ECS_DW</DataSourceViewID>
@@ -75,7 +103,7 @@
   <Attributes>
     <Attribute dwd:design-time-name="5e7567f3-3cfc-4332-8396-e42add8277f6">
       <ID>Unit Crew Member Id</ID>
-      <Name>Unit Crew Member Id</Name>
+      <Name>Unit Crew Member</Name>
       <Usage>Key</Usage>
       <KeyColumns>
         <KeyColumn dwd:design-time-name="d878aab7-9242-4610-a6b8-a9b691b4cb4f">
@@ -86,22 +114,18 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="393a9ec4-7183-4be4-82b8-1e96d560ab71">
+        <DataType>WChar</DataType>
+        <DataSize>100</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="438948c6-ec39-41b7-9435-49a768571fc2">
+          <TableID>dbo_UnitCrewMember</TableID>
+          <ColumnID>CrewMemberName</ColumnID>
+        </Source>
+      </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="fe7111ad-60e3-4d92-a98e-a561b1a6a12c">
-          <AttributeID>Crew Member Name</AttributeID>
-          <Name>Crew Member Name</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="57b9d788-9925-4e28-b7dc-530a243ce745">
           <AttributeID>Response Role</AttributeID>
           <Name>Response Role</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="8804a1dc-598a-4aac-b2bd-b701fb6bcc7c">
-          <AttributeID>Response Level</AttributeID>
-          <Name>Response Level</Name>
-        </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="ee277661-8b5a-4206-950b-c03622a0963a">
-          <AttributeID>License Type</AttributeID>
-          <Name>License Type</Name>
         </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="12876112-eb48-46af-a89f-c39421d42c79">
           <AttributeID>Hire Date</AttributeID>
@@ -110,34 +134,41 @@
       </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
-    <Attribute dwd:design-time-name="1ddb6f30-036e-47bb-bce2-e7427dbf0f02">
-      <ID>Crew Member Name</ID>
-      <Name>Crew Member Name</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="ac01d6d0-f4dd-47c8-94e1-2750a5591388">
-          <DataType>WChar</DataType>
-          <DataSize>100</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="2845f143-a238-4e8a-92e9-e3c2efb53a28">
-            <TableID>dbo_UnitCrewMember</TableID>
-            <ColumnID>CrewMemberName</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
     <Attribute dwd:design-time-name="54bab7cb-8b0c-4906-ad95-c2dfa3c45282">
       <ID>Response Role</ID>
       <Name>Response Role</Name>
       <KeyColumns>
-        <KeyColumn dwd:design-time-name="4cc73e17-5044-4c8c-ac11-b9505c49c200">
+        <KeyColumn dwd:design-time-name="214603f3-7178-4e42-abb0-420a3ae58302">
           <DataType>WChar</DataType>
           <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="a799bb24-d6eb-4921-9b03-614677e8ea50">
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="f4d91e69-995f-407c-a192-f44b4612e039">
+            <TableID>dbo_UnitCrewMember</TableID>
+            <ColumnID>ResponseLevel</ColumnID>
+          </Source>
+        </KeyColumn>
+        <KeyColumn dwd:design-time-name="836c0e87-704a-45d6-9702-c5a63bd0fbf1">
+          <DataType>WChar</DataType>
+          <DataSize>50</DataSize>
+          <Source xsi:type="ColumnBinding" dwd:design-time-name="8060a6c0-0eaf-4974-9698-47a9d7d653bb">
             <TableID>dbo_UnitCrewMember</TableID>
             <ColumnID>ResponseRole</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <NameColumn dwd:design-time-name="3d75b0f5-c102-4d27-81b7-514fc0082b73">
+        <DataType>WChar</DataType>
+        <DataSize>50</DataSize>
+        <Source xsi:type="ColumnBinding" dwd:design-time-name="82c905a1-126b-4fa0-a85d-e34a131e2bce">
+          <TableID>dbo_UnitCrewMember</TableID>
+          <ColumnID>ResponseRole</ColumnID>
+        </Source>
+      </NameColumn>
+      <AttributeRelationships>
+        <AttributeRelationship dwd:design-time-name="8bc9f402-4669-4de2-b13e-479f3ea75125">
+          <AttributeID>Response Level</AttributeID>
+          <Name>Response Level</Name>
+        </AttributeRelationship>
+      </AttributeRelationships>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="62737cfc-0ed2-43f7-a80a-28af606444d8">
@@ -150,21 +181,6 @@
           <Source xsi:type="ColumnBinding" dwd:design-time-name="d913f56e-1e82-41e7-a00f-f0653584d146">
             <TableID>dbo_UnitCrewMember</TableID>
             <ColumnID>ResponseLevel</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="61897413-bfd3-4b32-91f2-b52ca9091b96">
-      <ID>License Type</ID>
-      <Name>License Type</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="69a1314c-8cd3-4433-a41d-839679c3b83f">
-          <DataType>WChar</DataType>
-          <DataSize>25</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="76f566d9-72a7-4096-ae43-8e14159f2245">
-            <TableID>dbo_UnitCrewMember</TableID>
-            <ColumnID>LicenseType</ColumnID>
           </Source>
         </KeyColumn>
       </KeyColumns>
@@ -188,23 +204,22 @@
   <Hierarchies>
     <Hierarchy dwd:design-time-name="303ae5a3-6ed1-4e0f-8c9f-a8bc846e1e91">
       <ID>Hierarchy</ID>
-      <Name>Response Level Hierarchy</Name>
+      <Name>Response Level and Role Hierarchy</Name>
       <Levels>
         <Level dwd:design-time-name="540241db-107f-4df5-a17f-0809db90f1f5">
           <ID>Response Level</ID>
           <Name>Response Level</Name>
           <SourceAttributeID>Response Level</SourceAttributeID>
         </Level>
-      </Levels>
-    </Hierarchy>
-    <Hierarchy dwd:design-time-name="f56bebd5-09b7-49af-b5f5-82ab888e59df">
-      <ID>Hierarchy 1</ID>
-      <Name>Respones Role Hierarchy</Name>
-      <Levels>
-        <Level dwd:design-time-name="873b368b-f96d-4027-8b25-c2c6cf0a7ca4">
+        <Level dwd:design-time-name="c9871c24-0951-43dc-b92f-0beb9f32b37f">
           <ID>Response Role</ID>
           <Name>Response Role</Name>
           <SourceAttributeID>Response Role</SourceAttributeID>
+        </Level>
+        <Level dwd:design-time-name="e969e6a3-c205-40c6-b105-364950960417">
+          <ID>Unit Crew Member Id</ID>
+          <Name>Crew Member</Name>
+          <SourceAttributeID>Unit Crew Member Id</SourceAttributeID>
         </Level>
       </Levels>
     </Hierarchy>

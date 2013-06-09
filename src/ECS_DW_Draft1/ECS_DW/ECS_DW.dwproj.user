@@ -3,7 +3,7 @@
     <Configuration>
       <Name>Development</Name>
       <Options>
-        <TargetServer>RHAFFEY-LAPTOP\SQL2008R2</TargetServer>
+        <TargetServer>RICK-LAPTOP\SS2008R2</TargetServer>
         <TargetDatabase>ECS_DW</TargetDatabase>
         <StartObject>
           <ObjectId></ObjectId>

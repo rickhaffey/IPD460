@@ -1,8 +1,8 @@
 ﻿<Cube xmlns:xsd="http://www.w3.org/2001/XMLSchema" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:ddl2="http://schemas.microsoft.com/analysisservices/2003/engine/2" xmlns:ddl2_2="http://schemas.microsoft.com/analysisservices/2003/engine/2/2" xmlns:ddl100_100="http://schemas.microsoft.com/analysisservices/2008/engine/100/100" xmlns:ddl200="http://schemas.microsoft.com/analysisservices/2010/engine/200" xmlns:ddl200_200="http://schemas.microsoft.com/analysisservices/2010/engine/200/200" xmlns:dwd="http://schemas.microsoft.com/DataWarehouse/Designer/1.0" dwd:design-time-name="d2dfe91f-e337-424f-b25b-2746ecaa1a60" xmlns="http://schemas.microsoft.com/analysisservices/2003/engine">
   <ID>New cube</ID>
   <Name>QualityMeasures_Timings</Name>
-  <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-  <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
+  <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+  <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
   <Annotations>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
@@ -470,7 +470,7 @@
       <Value>75</Value>
     </Annotation>
   </Annotations>
-  <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+  <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
   <State>Unprocessed</State>
   <Dimensions>
     <Dimension dwd:design-time-name="504d5317-07f9-4759-89ac-6942b7615a34">
@@ -611,17 +611,11 @@
         <Attribute dwd:design-time-name="44dce25a-af85-415f-b0a9-2ec256616511">
           <AttributeID>Unit Crew Member Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="0762efcb-6b57-472e-ac9b-dfd04daa70bb">
-          <AttributeID>Crew Member Name</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="28231f5e-d3a6-4e70-ac28-02f8853597ba">
           <AttributeID>Response Role</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="d1fd15f0-5010-4000-b181-b2c41a19b2c7">
           <AttributeID>Response Level</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="eefd38cb-d10f-44fd-a224-7c1c9ffd3891">
-          <AttributeID>License Type</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="a3350e2d-5b5c-4a42-998e-febab953ffc0">
           <AttributeID>Hire Date</AttributeID>
@@ -630,9 +624,6 @@
       <Hierarchies>
         <Hierarchy dwd:design-time-name="e532f7db-5f83-46d6-b1a7-ed83b1313f0f">
           <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="1d1cd13e-8d7b-4452-9a7c-ffe60b32c934">
-          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -644,17 +635,11 @@
         <Attribute dwd:design-time-name="0a4a4145-1a0e-4f72-be59-3a4102aee2a9">
           <AttributeID>Unit Crew Member Id</AttributeID>
         </Attribute>
-        <Attribute dwd:design-time-name="4276d298-d239-465a-acbf-f5e5449a0b52">
-          <AttributeID>Crew Member Name</AttributeID>
-        </Attribute>
         <Attribute dwd:design-time-name="1c1068e7-f326-4f7f-8aa1-a0f1d804b4a1">
           <AttributeID>Response Role</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="cde8279f-fe7c-4957-b305-a170d0b554c2">
           <AttributeID>Response Level</AttributeID>
-        </Attribute>
-        <Attribute dwd:design-time-name="c23a1183-3c9a-42c6-8b8b-98e4aecccb63">
-          <AttributeID>License Type</AttributeID>
         </Attribute>
         <Attribute dwd:design-time-name="e8129c46-e412-421c-a2bc-4d5c5c7c110f">
           <AttributeID>Hire Date</AttributeID>
@@ -663,9 +648,6 @@
       <Hierarchies>
         <Hierarchy dwd:design-time-name="1462050a-9b70-44ef-849e-b500e8a27c7d">
           <HierarchyID>Hierarchy</HierarchyID>
-        </Hierarchy>
-        <Hierarchy dwd:design-time-name="92419747-c4c8-4142-91d8-c6bd5b735ebc">
-          <HierarchyID>Hierarchy 1</HierarchyID>
         </Hierarchy>
       </Hierarchies>
     </Dimension>
@@ -724,9 +706,9 @@
     <MeasureGroup dwd:design-time-name="28e30f4f-f27f-4e5d-b36e-57b56355a5ca">
       <ID>CallResponseTimings</ID>
       <Name>CallResponseTimings</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
         <Measure dwd:design-time-name="b8c5fbf0-2477-454d-baa4-77e294859050">
@@ -1050,9 +1032,9 @@
     <MeasureGroup dwd:design-time-name="b223622f-84d9-4140-a022-632d655b8de3">
       <ID>CardiacCareTiming</ID>
       <Name>CardiacCareTiming</Name>
-      <CreatedTimestamp>0001-01-01T00:00:00Z</CreatedTimestamp>
-      <LastSchemaUpdate>0001-01-01T00:00:00Z</LastSchemaUpdate>
-      <LastProcessed>0001-01-01T00:00:00Z</LastProcessed>
+      <CreatedTimestamp>0001-01-01T06:00:00Z</CreatedTimestamp>
+      <LastSchemaUpdate>0001-01-01T06:00:00Z</LastSchemaUpdate>
+      <LastProcessed>0001-01-01T06:00:00Z</LastProcessed>
       <State>Unprocessed</State>
       <Measures>
         <Measure dwd:design-time-name="5c704d78-1740-45d5-91ac-fa7dec317c85">

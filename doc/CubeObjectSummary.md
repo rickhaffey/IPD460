@@ -233,10 +233,10 @@ Code Description
 -- Crew member levle --
 
 simplified:
-Nurse
-EMT-Paramedic
-EMT-Intermediate
-EMT-Basic
+* Nurse
+* EMT-Paramedic
+* EMT-Intermediate
+* EMT-Basic
 
 Code Description
 2302001 2009 Advanced Emergency Medical Technician (AEMT)
@@ -255,6 +255,13 @@ Code Description
 2302027 Student
 2302029 Critical Care Paramedic
 2302031 Community Paramedicine
+
+
+simplified:
+* Driver
+* Primary Caregiver
+* Other
+
 
 
 -- crew member role --
