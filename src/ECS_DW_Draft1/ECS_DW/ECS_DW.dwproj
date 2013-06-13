@@ -20,10 +20,6 @@
   </Cubes>
   <Dimensions>
     <ProjectItem>
-      <Name>Time.dim</Name>
-      <FullPath>Time.dim</FullPath>
-    </ProjectItem>
-    <ProjectItem>
       <Name>Unit.dim</Name>
       <FullPath>Unit.dim</FullPath>
     </ProjectItem>
@@ -46,6 +42,14 @@
     <ProjectItem>
       <Name>Location.dim</Name>
       <FullPath>Location.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Date.dim</Name>
+      <FullPath>Date.dim</FullPath>
+    </ProjectItem>
+    <ProjectItem>
+      <Name>Time.dim</Name>
+      <FullPath>Time.dim</FullPath>
     </ProjectItem>
   </Dimensions>
   <DataSources>

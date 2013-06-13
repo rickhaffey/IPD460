@@ -26,16 +26,9 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.DataSourceView</Type>
-        <TimeStamp>jVap09g/wCYgBJclb2xhItFJn8s=6/9/2013 11:46:47 AM6/2/2013 8:49:14 PM</TimeStamp>
+        <TimeStamp>Xd+lQqTBtVFxewidCrDBsn5Ua5Q=6/12/2013 4:11:25 PM6/2/2013 8:49:14 PM</TimeStamp>
         <ID>
           <String>ECS_DW</String>
-        </ID>
-      </ObjectSnapshot>
-      <ObjectSnapshot>
-        <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>ZBaumA2DR8idMn4CCNDBitjogpE=5/27/2013 10:00:46 AM6/2/2013 8:49:10 PM</TimeStamp>
-        <ID>
-          <String>Time</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
@@ -75,14 +68,28 @@
       </ObjectSnapshot>
       <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Dimension</Type>
-        <TimeStamp>5OxCd3T+LkDjsv8DsZ5AcHtRVfk=5/27/2013 11:34:08 AM6/2/2013 8:49:09 PM</TimeStamp>
+        <TimeStamp>60LECLnOlNetvmz5gRpJ82jx0D8=6/12/2013 4:43:59 PM6/2/2013 8:49:09 PM</TimeStamp>
         <ID>
           <String>Location</String>
         </ID>
       </ObjectSnapshot>
       <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>MNF0sy4XHOZO8gAzHqzd1CGLkcg=6/12/2013 9:14:07 PM6/11/2013 9:12:51 PM</TimeStamp>
+        <ID>
+          <String>Date</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
+        <Type>Microsoft.AnalysisServices.Dimension</Type>
+        <TimeStamp>VYDY7MiKHygE4d0iTNal35r4FBo=6/11/2013 10:12:30 PM6/11/2013 9:55:18 PM</TimeStamp>
+        <ID>
+          <String>Time</String>
+        </ID>
+      </ObjectSnapshot>
+      <ObjectSnapshot>
         <Type>Microsoft.AnalysisServices.Cube</Type>
-        <TimeStamp>RLz7qWdB5tPQKgQT9CxcDZy8iz0=6/9/2013 12:19:41 PM6/2/2013 8:49:12 PMmpCfdAG/j/E0EHyFlJeFk+3B/oY=5/27/2013 10:09:58 AM6/2/2013 8:48:58 PM</TimeStamp>
+        <TimeStamp>BWu6orUV+uxJ9N0w6iUQJNEa/IY=6/12/2013 9:42:55 PM6/2/2013 8:49:12 PM7QE70st30jNsCsCJiJX64WZ9Yag=6/12/2013 9:35:16 PM6/2/2013 8:48:58 PM</TimeStamp>
         <ID>
           <String>New cube</String>
         </ID>
@@ -106,5 +113,5 @@
   </Snapshot>
   <AssemblyLocations />
   <ProcessingComplete>true</ProcessingComplete>
-  <LastDeployed>2013-06-09T17:21:57.866667Z</LastDeployed>
+  <LastDeployed>2013-06-13T02:43:03.926667Z</LastDeployed>
 </DeploymentSnapshot>

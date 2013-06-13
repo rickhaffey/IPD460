@@ -10,7 +10,7 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:CurrentLayout</Name>
-      <Value>CardiacTimings</Value>
+      <Value>ResponseTimings</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:Layouts</Name>
@@ -564,7 +564,7 @@
             <Name>ResponseTimings</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="298" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1186" scrolltop="5102" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="28469" y="17859" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="345" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1186" scrolltop="10266" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24739" y="17886" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -575,9 +575,9 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="CallResponseTimings" left="10050" top="7033" logicalid="276" controlid="162" masterid="0" hint1="0" hint2="0" width="4736" height="10556" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="CallResponseTimings" left="9997" top="6557" logicalid="274" controlid="131" masterid="0" hint1="0" hint2="0" width="4736" height="12223" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobjectstreaminitwrapper binary="00080000801200003c290000" />
+                    <ddsxmlobjectstreaminitwrapper binary="0008000080120000bf2f0000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
@@ -586,7 +586,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Complaint" left="19522" top="8277" logicalid="277" controlid="163" masterid="0" hint1="0" hint2="0" width="3175" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Complaint" left="19522" top="8277" logicalid="275" controlid="132" masterid="0" hint1="0" hint2="0" width="3175" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="00080000670c000057070000" />
                   </control>
@@ -597,58 +597,84 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="14486" top="8817" logicalid="278" controlid="164" masterid="0" hint1="0" hint2="0" width="5336" height="1044" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Unit" left="3699" top="10499" logicalid="276" controlid="133" masterid="0" hint1="0" hint2="0" width="3122" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000320c0000f40d0000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Complaint]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
+                      <property name="LogicalObject" value="dbo_Unit" vartype="8" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="163" destid="162" sourceattachpoint="12" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="19522" y="9216" />
-                    <point x="17154" y="9216" />
-                    <point x="17154" y="9561" />
-                    <point x="14786" y="9561" />
-                  </connector>
+                  <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="14486" top="8267" logicalid="279" controlid="165" masterid="0" hint1="0" hint2="0" width="5336" height="1044" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="UnitCrewMember" left="4308" top="15791" logicalid="278" controlid="135" masterid="0" hint1="0" hint2="0" width="3651" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000430e0000f40d0000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Complaint1]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
+                      <property name="LogicalObject" value="dbo_UnitCrewMember" vartype="8" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="163" destid="162" sourceattachpoint="10" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="19522" y="8666" />
-                    <point x="17154" y="8666" />
-                    <point x="17154" y="9011" />
-                    <point x="14786" y="9011" />
-                  </connector>
+                  <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time" left="19601" top="11187" logicalid="280" controlid="166" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="LevelOfCare" left="3011" top="6637" logicalid="279" controlid="136" masterid="0" hint1="0" hint2="0" width="3519" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000bf0d000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_LevelOfCare" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Location" left="10843" top="22142" logicalid="281" controlid="138" masterid="0" hint1="0" hint2="0" width="3000" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000ea120000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="Location" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Delay" left="18834" top="18357" logicalid="282" controlid="139" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Delay" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Date" left="24735" top="10474" logicalid="295" controlid="152" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="000800000510000088130000" />
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="Time" vartype="8" />
+                      <property name="LogicalObject" value="dbo_Date" vartype="8" />
                     </ddsxmlobj>
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="14486" top="13838" logicalid="281" controlid="167" masterid="0" hint1="0" hint2="0" width="5415" height="973" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time" left="19601" top="14256" logicalid="296" controlid="153" masterid="0" hint1="0" hint2="0" width="3000" height="3281" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000d10c0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Time" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14433" top="10168" logicalid="297" controlid="154" masterid="0" hint1="0" hint2="0" width="10602" height="1006" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -661,25 +687,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="166" destid="162" sourceattachpoint="24" destattachpoint="45" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="19601" y="14237" />
-                    <point x="17233" y="14237" />
-                    <point x="17233" y="14511" />
-                    <point x="14786" y="14511" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="152" destid="131" sourceattachpoint="14" destattachpoint="31" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="24735" y="10774" />
+                    <point x="16969" y="10774" />
+                    <point x="16969" y="10468" />
+                    <point x="14733" y="10468" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Unit" left="3699" top="10499" logicalid="282" controlid="168" masterid="0" hint1="0" hint2="0" width="3122" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="00080000320c0000f40d0000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_Unit" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="6521" top="10236" logicalid="283" controlid="169" masterid="0" hint1="0" hint2="0" width="3829" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14433" top="12368" logicalid="298" controlid="155" masterid="0" hint1="0" hint2="0" width="5968" height="2388" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -687,81 +702,18 @@
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Unit]" vartype="8" />
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Time1]" vartype="8" />
                       <property name="Virtual" value="0" vartype="11" />
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="168" destid="162" sourceattachpoint="11" destattachpoint="30" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="6821" y="10635" />
-                    <point x="8435" y="10635" />
-                    <point x="8435" y="10661" />
-                    <point x="10050" y="10661" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="153" destid="131" sourceattachpoint="0" destattachpoint="39" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="20001" y="14256" />
+                    <point x="20001" y="12668" />
+                    <point x="14733" y="12668" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="UnitCrewMember" left="4308" top="15791" logicalid="284" controlid="170" masterid="0" hint1="0" hint2="0" width="3651" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="00080000430e0000f40d0000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_UnitCrewMember" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="7659" top="16078" logicalid="285" controlid="171" masterid="0" hint1="0" hint2="0" width="2691" height="933" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-UnitCrewMember]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="170" destid="162" sourceattachpoint="17" destattachpoint="52" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="7959" y="16477" />
-                    <point x="9004" y="16477" />
-                    <point x="9004" y="16711" />
-                    <point x="10050" y="16711" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="7659" top="15528" logicalid="286" controlid="172" masterid="0" hint1="0" hint2="0" width="2691" height="933" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-UnitCrewMember1]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="170" destid="162" sourceattachpoint="15" destattachpoint="50" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="7959" y="15927" />
-                    <point x="9004" y="15927" />
-                    <point x="9004" y="16161" />
-                    <point x="10050" y="16161" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="LevelOfCare" left="3011" top="6637" logicalid="287" controlid="173" masterid="0" hint1="0" hint2="0" width="3519" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="00080000bf0d000057070000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_LevelOfCare" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="6230" top="6627" logicalid="288" controlid="174" masterid="0" hint1="0" hint2="0" width="4120" height="2134" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="6230" top="6627" logicalid="330" controlid="187" masterid="0" hint1="0" hint2="0" width="4067" height="841" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -774,25 +726,14 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="173" destid="162" sourceattachpoint="15" destattachpoint="22" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="136" destid="131" sourceattachpoint="15" destattachpoint="18" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="6530" y="7026" />
-                    <point x="9576" y="7026" />
-                    <point x="9576" y="8461" />
-                    <point x="10050" y="8461" />
+                    <point x="8263" y="7026" />
+                    <point x="8263" y="7168" />
+                    <point x="9997" y="7168" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Location" left="9441" top="18702" logicalid="289" controlid="175" masterid="0" hint1="0" hint2="0" width="3000" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000ea120000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="Location" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="9918" top="17289" logicalid="290" controlid="176" masterid="0" hint1="0" hint2="0" width="873" height="1913" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14433" top="16218" logicalid="331" controlid="188" masterid="0" hint1="0" hint2="0" width="4701" height="2928" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -800,50 +741,19 @@
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Location]" vartype="8" />
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_TurnaroundDelay]" vartype="8" />
                       <property name="Virtual" value="0" vartype="11" />
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="175" destid="162" sourceattachpoint="2" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="10391" y="18702" />
-                    <point x="10391" y="18146" />
-                    <point x="10218" y="18146" />
-                    <point x="10218" y="17589" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Delay" left="18834" top="18357" logicalid="291" controlid="177" masterid="0" hint1="0" hint2="0" width="3000" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="00080000b80b000057070000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dbo_Delay" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="14486" top="15311" logicalid="292" controlid="178" masterid="0" hint1="0" hint2="0" width="4648" height="3835" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Delay]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="177" destid="162" sourceattachpoint="10" destattachpoint="49" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="139" destid="131" sourceattachpoint="10" destattachpoint="53" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="18834" y="18746" />
-                    <point x="16810" y="18746" />
-                    <point x="16810" y="15611" />
-                    <point x="14786" y="15611" />
+                    <point x="16784" y="18746" />
+                    <point x="16784" y="16518" />
+                    <point x="14733" y="16518" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="14486" top="14761" logicalid="293" controlid="179" masterid="0" hint1="0" hint2="0" width="4648" height="4385" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14433" top="15668" logicalid="332" controlid="189" masterid="0" hint1="0" hint2="0" width="4701" height="3478" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -851,19 +761,19 @@
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Delay1]" vartype="8" />
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_DispatchDelay]" vartype="8" />
                       <property name="Virtual" value="0" vartype="11" />
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="177" destid="162" sourceattachpoint="10" destattachpoint="47" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="139" destid="131" sourceattachpoint="10" destattachpoint="51" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="18834" y="18746" />
-                    <point x="16810" y="18746" />
-                    <point x="16810" y="15061" />
-                    <point x="14786" y="15061" />
+                    <point x="16784" y="18746" />
+                    <point x="16784" y="15968" />
+                    <point x="14733" y="15968" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="14486" top="15861" logicalid="294" controlid="180" masterid="0" hint1="0" hint2="0" width="4648" height="3285" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="6521" top="10168" logicalid="333" controlid="190" masterid="0" hint1="0" hint2="0" width="3776" height="867" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -871,19 +781,19 @@
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Delay2]" vartype="8" />
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Unit]" vartype="8" />
                       <property name="Virtual" value="0" vartype="11" />
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="177" destid="162" sourceattachpoint="10" destattachpoint="51" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="18834" y="18746" />
-                    <point x="16810" y="18746" />
-                    <point x="16810" y="16161" />
-                    <point x="14786" y="16161" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="133" destid="131" sourceattachpoint="11" destattachpoint="30" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="6821" y="10635" />
+                    <point x="8409" y="10635" />
+                    <point x="8409" y="10468" />
+                    <point x="9997" y="10468" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="14486" top="16961" logicalid="295" controlid="181" masterid="0" hint1="0" hint2="0" width="4648" height="2185" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="11944" top="18480" logicalid="334" controlid="191" masterid="0" hint1="0" hint2="0" width="799" height="4162" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -891,19 +801,19 @@
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Delay3]" vartype="8" />
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_DispatchLocation]" vartype="8" />
                       <property name="Virtual" value="0" vartype="11" />
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="177" destid="162" sourceattachpoint="10" destattachpoint="55" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="18834" y="18746" />
-                    <point x="16810" y="18746" />
-                    <point x="16810" y="17261" />
-                    <point x="14786" y="17261" />
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="138" destid="131" sourceattachpoint="4" destattachpoint="9" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="12343" y="22142" />
+                    <point x="12343" y="20461" />
+                    <point x="12365" y="20461" />
+                    <point x="12365" y="18780" />
                   </connector>
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="14486" top="16411" logicalid="296" controlid="182" masterid="0" hint1="0" hint2="0" width="4648" height="2735" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14433" top="16768" logicalid="335" controlid="192" masterid="0" hint1="0" hint2="0" width="4701" height="2378" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -911,33 +821,213 @@
                   </control>
                   <layoutobject>
                     <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Delay4]" vartype="8" />
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_ResponseDelay]" vartype="8" />
                       <property name="Virtual" value="0" vartype="11" />
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="177" destid="162" sourceattachpoint="10" destattachpoint="53" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="139" destid="131" sourceattachpoint="10" destattachpoint="55" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="18834" y="18746" />
-                    <point x="16810" y="18746" />
-                    <point x="16810" y="16711" />
-                    <point x="14786" y="16711" />
+                    <point x="16784" y="18746" />
+                    <point x="16784" y="17068" />
+                    <point x="14733" y="17068" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14433" top="8817" logicalid="336" controlid="193" masterid="0" hint1="0" hint2="0" width="5389" height="851" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_InitialComplaint]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="132" destid="131" sourceattachpoint="12" destattachpoint="27" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="19522" y="9216" />
+                    <point x="17128" y="9216" />
+                    <point x="17128" y="9368" />
+                    <point x="14733" y="9368" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="11394" top="18480" logicalid="337" controlid="194" masterid="0" hint1="0" hint2="0" width="799" height="4162" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_SceneLocation]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="138" destid="131" sourceattachpoint="2" destattachpoint="7" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11793" y="22142" />
+                    <point x="11793" y="20461" />
+                    <point x="11815" y="20461" />
+                    <point x="11815" y="18780" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14433" top="8267" logicalid="338" controlid="195" masterid="0" hint1="0" hint2="0" width="5389" height="851" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_FinalComplaint]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="132" destid="131" sourceattachpoint="10" destattachpoint="25" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="19522" y="8666" />
+                    <point x="17128" y="8666" />
+                    <point x="17128" y="8818" />
+                    <point x="14733" y="8818" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14433" top="10718" logicalid="339" controlid="196" masterid="0" hint1="0" hint2="0" width="10602" height="1006" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-Time2]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="152" destid="131" sourceattachpoint="16" destattachpoint="33" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="24735" y="11324" />
+                    <point x="19734" y="11324" />
+                    <point x="19734" y="11018" />
+                    <point x="14733" y="11018" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="7659" top="16078" logicalid="340" controlid="197" masterid="0" hint1="0" hint2="0" width="2638" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings-PrimaryCrewMember]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="135" destid="131" sourceattachpoint="17" destattachpoint="52" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7959" y="16477" />
+                    <point x="8978" y="16477" />
+                    <point x="8978" y="16518" />
+                    <point x="9997" y="16518" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="10844" top="18480" logicalid="341" controlid="198" masterid="0" hint1="0" hint2="0" width="799" height="4162" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_DestinationLocation]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="138" destid="131" sourceattachpoint="0" destattachpoint="5" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="11243" y="22142" />
+                    <point x="11243" y="20461" />
+                    <point x="11265" y="20461" />
+                    <point x="11265" y="18780" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="7659" top="15528" logicalid="342" controlid="199" masterid="0" hint1="0" hint2="0" width="2638" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_SecondaryCrewMember]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="135" destid="131" sourceattachpoint="15" destattachpoint="50" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="7959" y="15927" />
+                    <point x="8978" y="15927" />
+                    <point x="8978" y="15968" />
+                    <point x="9997" y="15968" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14433" top="17318" logicalid="343" controlid="200" masterid="0" hint1="0" hint2="0" width="4701" height="1828" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_TransportDelay]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="139" destid="131" sourceattachpoint="10" destattachpoint="57" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="18834" y="18746" />
+                    <point x="16784" y="18746" />
+                    <point x="16784" y="17618" />
+                    <point x="14733" y="17618" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="14433" top="17868" logicalid="344" controlid="201" masterid="0" hint1="0" hint2="0" width="4701" height="1278" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CallResponseTimings_SceneDelay]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="139" destid="131" sourceattachpoint="10" destattachpoint="59" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="18834" y="18746" />
+                    <point x="16784" y="18746" />
+                    <point x="16784" y="18168" />
+                    <point x="14733" y="18168" />
                   </connector>
                 </ddscontrol>
               </dds>
-            </DiagramLayout>
+</DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
             <DiagramViewPortLeft>1186</DiagramViewPortLeft>
-            <DiagramViewPortTop>5102</DiagramViewPortTop>
+            <DiagramViewPortTop>10266</DiagramViewPortTop>
             <DiagramBoundingLeft>3011</DiagramBoundingLeft>
-            <DiagramBoundingTop>6637</DiagramBoundingTop>
+            <DiagramBoundingTop>6557</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
           </Diagram>
           <Diagram>
             <Name>CardiacTimings</Name>
             <DiagramLayout>
               <dds>
-                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="32" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="1911" scrolltop="3095" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="24739" y="12700" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="1" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+                <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="249" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="5157" scrolltop="-2043" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="33205" y="23707" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
                   <font>
                     <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
                   </font>
@@ -948,7 +1038,7 @@
                 <layoutmanager>
                   <ddsxmlobj />
                 </layoutmanager>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="CardiacCareTiming" left="13229" top="2593" logicalid="16" controlid="1" masterid="0" hint1="0" hint2="0" width="4233" height="7170" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="CardiacCareTiming" left="13547" top="1508" logicalid="230" controlid="112" masterid="0" hint1="0" hint2="0" width="4233" height="7170" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="0008000089100000021c0000" />
                   </control>
@@ -959,38 +1049,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time" left="19817" top="1905" logicalid="17" controlid="2" masterid="0" hint1="0" hint2="0" width="4101" height="5000" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobjectstreaminitwrapper binary="000800000510000088130000" />
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="Time" vartype="8" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <shape groupshapeid="0" groupnode="0" />
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="17162" top="2356" logicalid="18" controlid="3" masterid="0" hint1="0" hint2="0" width="2955" height="822" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-Time]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="2" destid="1" sourceattachpoint="16" destattachpoint="15" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="19817" y="2755" />
-                    <point x="18640" y="2755" />
-                    <point x="18640" y="2878" />
-                    <point x="17462" y="2878" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Unit" left="6138" top="3202" logicalid="19" controlid="4" masterid="0" hint1="0" hint2="0" width="3122" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Unit" left="6138" top="3202" logicalid="231" controlid="113" masterid="0" hint1="0" hint2="0" width="3122" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="00080000320c0000f40d0000" />
                   </control>
@@ -1001,27 +1060,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="8960" top="2939" logicalid="20" controlid="5" masterid="0" hint1="0" hint2="0" width="4569" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-Unit]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="4" destid="1" sourceattachpoint="11" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="9260" y="3338" />
-                    <point x="11244" y="3338" />
-                    <point x="11244" y="3428" />
-                    <point x="13229" y="3428" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="UnitCrewMember" left="5689" top="7884" logicalid="21" controlid="6" masterid="0" hint1="0" hint2="0" width="3651" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="UnitCrewMember" left="5689" top="7884" logicalid="232" controlid="114" masterid="0" hint1="0" hint2="0" width="3651" height="3572" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="00080000430e0000f40d0000" />
                   </control>
@@ -1032,47 +1071,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="9040" top="7528" logicalid="22" controlid="7" masterid="0" hint1="0" hint2="0" width="4489" height="1442" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-UnitCrewMember]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="1" sourceattachpoint="17" destattachpoint="32" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="9340" y="8570" />
-                    <point x="11284" y="8570" />
-                    <point x="11284" y="7828" />
-                    <point x="13229" y="7828" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="9040" top="7621" logicalid="23" controlid="8" masterid="0" hint1="0" hint2="0" width="4489" height="1057" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-UnitCrewMember1]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="6" destid="1" sourceattachpoint="15" destattachpoint="34" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="9340" y="8020" />
-                    <point x="11284" y="8020" />
-                    <point x="11284" y="8378" />
-                    <point x="13229" y="8378" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Complaint" left="11562" top="12541" logicalid="24" controlid="9" masterid="0" hint1="0" hint2="0" width="3175" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Complaint" left="11562" top="12541" logicalid="233" controlid="115" masterid="0" hint1="0" hint2="0" width="3175" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="00080000670c000057070000" />
                   </control>
@@ -1083,47 +1082,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="13850" top="9463" logicalid="25" controlid="10" masterid="0" hint1="0" hint2="0" width="799" height="3578" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-Complaint]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="1" sourceattachpoint="8" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="14249" y="12541" />
-                    <point x="14249" y="11152" />
-                    <point x="14245" y="11152" />
-                    <point x="14245" y="9763" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="13300" top="9463" logicalid="26" controlid="11" masterid="0" hint1="0" hint2="0" width="799" height="3578" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-Complaint1]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="9" destid="1" sourceattachpoint="6" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="13699" y="12541" />
-                    <point x="13699" y="11152" />
-                    <point x="13695" y="11152" />
-                    <point x="13695" y="9763" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="LevelOfCare" left="19659" top="13150" logicalid="27" controlid="12" masterid="0" hint1="0" hint2="0" width="3519" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="LevelOfCare" left="19659" top="13150" logicalid="234" controlid="116" masterid="0" hint1="0" hint2="0" width="3519" height="1879" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="00080000bf0d000057070000" />
                   </control>
@@ -1134,27 +1093,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="16695" top="9463" logicalid="28" controlid="13" masterid="0" hint1="0" hint2="0" width="3473" height="4187" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
-                  <control>
-                    <ddsxmlobj>
-                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
-                    </ddsxmlobj>
-                  </control>
-                  <layoutobject>
-                    <ddsxmlobj>
-                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-LevelOfCare]" vartype="8" />
-                      <property name="Virtual" value="0" vartype="11" />
-                      <property name="VisibleAP" value="0" vartype="3" />
-                    </ddsxmlobj>
-                  </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="12" destid="1" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
-                    <point x="19768" y="13150" />
-                    <point x="19768" y="11457" />
-                    <point x="16995" y="11457" />
-                    <point x="16995" y="9763" />
-                  </connector>
-                </ddscontrol>
-                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Location" left="23601" top="7726" logicalid="29" controlid="14" masterid="0" hint1="0" hint2="0" width="3000" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Location" left="23601" top="7726" logicalid="235" controlid="117" masterid="0" hint1="0" hint2="0" width="3000" height="4842" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000ea120000" />
                   </control>
@@ -1165,7 +1104,7 @@
                   </layoutobject>
                   <shape groupshapeid="0" groupnode="0" />
                 </ddscontrol>
-                <ddscontrol controlprogid="MSDDS.Polyline" left="17162" top="7548" logicalid="30" controlid="15" masterid="0" hint1="0" hint2="0" width="6739" height="2230" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                <ddscontrol controlprogid="MSDDS.Polyline" left="17480" top="7543" logicalid="236" controlid="118" masterid="0" hint1="0" hint2="0" width="6421" height="804" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
                   <control>
                     <ddsxmlobj>
                       <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
@@ -1178,21 +1117,203 @@
                       <property name="VisibleAP" value="0" vartype="3" />
                     </ddsxmlobj>
                   </layoutobject>
-                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="14" destid="1" sourceattachpoint="10" destattachpoint="39" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="117" destid="112" sourceattachpoint="10" destattachpoint="37" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
                     <point x="23601" y="7947" />
-                    <point x="19341" y="7947" />
-                    <point x="19341" y="9478" />
-                    <point x="17462" y="9478" />
+                    <point x="20532" y="7947" />
+                    <point x="20532" y="7843" />
+                    <point x="17780" y="7843" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="13850" top="8378" logicalid="237" controlid="119" masterid="0" hint1="0" hint2="0" width="1013" height="4663" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming_ReportedComplaint]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="115" destid="112" sourceattachpoint="8" destattachpoint="3" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="14249" y="12541" />
+                    <point x="14249" y="10610" />
+                    <point x="14563" y="10610" />
+                    <point x="14563" y="8678" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="17013" top="8378" logicalid="238" controlid="120" masterid="0" hint1="0" hint2="0" width="3155" height="5272" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-LevelOfCare]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="116" destid="112" sourceattachpoint="0" destattachpoint="13" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="19768" y="13150" />
+                    <point x="19768" y="11457" />
+                    <point x="17313" y="11457" />
+                    <point x="17313" y="8678" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="9040" top="8093" logicalid="239" controlid="121" masterid="0" hint1="0" hint2="0" width="4807" height="877" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming_SecondaryCrewMember]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="114" destid="112" sourceattachpoint="17" destattachpoint="38" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9340" y="8570" />
+                    <point x="11443" y="8570" />
+                    <point x="11443" y="8393" />
+                    <point x="13547" y="8393" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="13300" top="8378" logicalid="240" controlid="122" masterid="0" hint1="0" hint2="0" width="1013" height="4663" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming_FinalComplaint]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="115" destid="112" sourceattachpoint="6" destattachpoint="1" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="13699" y="12541" />
+                    <point x="13699" y="10610" />
+                    <point x="14013" y="10610" />
+                    <point x="14013" y="8678" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="8960" top="2043" logicalid="241" controlid="123" masterid="0" hint1="0" hint2="0" width="4887" height="1695" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-Unit]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="113" destid="112" sourceattachpoint="11" destattachpoint="16" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9260" y="3338" />
+                    <point x="11244" y="3338" />
+                    <point x="11244" y="2343" />
+                    <point x="13547" y="2343" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="9040" top="7543" logicalid="242" controlid="124" masterid="0" hint1="0" hint2="0" width="4807" height="877" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-PrimaryCrewMember]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="114" destid="112" sourceattachpoint="15" destattachpoint="36" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="9340" y="8020" />
+                    <point x="11443" y="8020" />
+                    <point x="11443" y="7843" />
+                    <point x="13547" y="7843" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Date" left="21221" top="-292" logicalid="243" controlid="125" masterid="0" hint1="0" hint2="0" width="4101" height="6509" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000051000006d190000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Date" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Time" left="27535" top="510" logicalid="245" controlid="127" masterid="0" hint1="0" hint2="0" width="3000" height="2725" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobjectstreaminitwrapper binary="00080000b80b0000a50a0000" />
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dbo_Time" vartype="8" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <shape groupshapeid="0" groupnode="0" />
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="17480" top="2563" logicalid="247" controlid="129" masterid="0" hint1="0" hint2="0" width="4041" height="799" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-Time]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="125" destid="112" sourceattachpoint="24" destattachpoint="19" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="21221" y="2962" />
+                    <point x="19342" y="2962" />
+                    <point x="19342" y="2893" />
+                    <point x="17780" y="2893" />
+                  </connector>
+                </ddscontrol>
+                <ddscontrol controlprogid="MSDDS.Polyline" left="17480" top="2573" logicalid="248" controlid="130" masterid="0" hint1="0" hint2="0" width="10355" height="1170" noresize="0" nomove="0" nodefaultattachpoints="1" autodrag="0" usedefaultiddshape="0" selectable="1" showselectionhandles="0" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+                  <control>
+                    <ddsxmlobj>
+                      <polyline endtypedst="6" endtypesrc="3" usercolor="0" linestyle="0" linerender="1" customendtypedstid="0" customendtypesrcid="0" adornsvisible="1" />
+                    </ddsxmlobj>
+                  </control>
+                  <layoutobject>
+                    <ddsxmlobj>
+                      <property name="LogicalObject" value="dataSet.Relations[CardiacCareTiming-Time1]" vartype="8" />
+                      <property name="Virtual" value="0" vartype="11" />
+                      <property name="VisibleAP" value="0" vartype="3" />
+                    </ddsxmlobj>
+                  </layoutobject>
+                  <connector lineroutestyle="MSDDS.Rectilinear" sourceid="127" destid="112" sourceattachpoint="18" destattachpoint="21" segmenteditmode="0" bendpointeditmode="0" bendpointvisibility="0" relatedid="0" virtual="0">
+                    <point x="27535" y="2972" />
+                    <point x="22499" y="2972" />
+                    <point x="22499" y="3443" />
+                    <point x="17780" y="3443" />
                   </connector>
                 </ddscontrol>
               </dds>
 </DiagramLayout>
             <ShowRelationshipNames>False</ShowRelationshipNames>
             <UseDiagramDefaultLayout>True</UseDiagramDefaultLayout>
-            <DiagramViewPortLeft>1911</DiagramViewPortLeft>
-            <DiagramViewPortTop>3095</DiagramViewPortTop>
+            <DiagramViewPortLeft>5157</DiagramViewPortLeft>
+            <DiagramViewPortTop>-2043</DiagramViewPortTop>
             <DiagramBoundingLeft>5689</DiagramBoundingLeft>
-            <DiagramBoundingTop>1905</DiagramBoundingTop>
+            <DiagramBoundingTop>-292</DiagramBoundingTop>
             <DiagramZoom>100</DiagramZoom>
           </Diagram>
         </Layouts>
@@ -1205,60 +1326,6 @@
       <xs:element name="ECS_DW" msdata:IsDataSet="true" msdata:UseCurrentLocale="true" msprop:design-time-name="cf932788-b871-49d1-bd26-af4906c97577" msprop:AllowGen="True">
         <xs:complexType>
           <xs:choice minOccurs="0" maxOccurs="unbounded">
-            <xs:element name="Time" msprop:FriendlyName="Time" msprop:DbSchemaName="dbo" msprop:DbTableName="Time" msprop:design-time-name="605e9c29-d624-4cd8-b948-0523b7d09570" msprop:TableType="Table" msprop:AllowGen="True">
-              <xs:complexType>
-                <xs:sequence>
-                  <xs:element name="Date" msprop:FriendlyName="PK_Date" msprop:DbColumnName="PK_Date" msprop:design-time-name="1660b822-eaa1-468b-88ca-c5f007dad405" msprop:AllowGen="True" type="xs:dateTime" />
-                  <xs:element name="Date_Name" msprop:FriendlyName="Date_Name" msprop:DbColumnName="Date_Name" msprop:design-time-name="c1f81770-02da-4fb9-bdb5-20de2c09064c" msprop:AllowGen="True" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="c62c18c1-02cc-445e-9467-a895ba111f55" msprop:AllowGen="True" type="xs:dateTime" minOccurs="0" />
-                  <xs:element name="Year_Name" msprop:FriendlyName="Year_Name" msprop:DbColumnName="Year_Name" msprop:design-time-name="cfdc34ae-f82c-43a7-9ca0-72ccdb487cfe" msprop:AllowGen="True" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="1e687f22-012e-4ab1-b65a-5cfbce66e996" msprop:AllowGen="True" type="xs:dateTime" minOccurs="0" />
-                  <xs:element name="Month_Name" msprop:FriendlyName="Month_Name" msprop:DbColumnName="Month_Name" msprop:design-time-name="9ef4f352-ddc6-4d38-84bc-ddebd08fe167" msprop:AllowGen="True" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Day_Of_Year" msprop:FriendlyName="Day_Of_Year" msprop:DbColumnName="Day_Of_Year" msprop:design-time-name="14641022-f3c9-4712-b9fa-76f9803260a9" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
-                  <xs:element name="Day_Of_Year_Name" msprop:FriendlyName="Day_Of_Year_Name" msprop:DbColumnName="Day_Of_Year_Name" msprop:design-time-name="7922885a-c30f-4380-b230-cd3ff235b968" msprop:AllowGen="True" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Day_Of_Month" msprop:FriendlyName="Day_Of_Month" msprop:DbColumnName="Day_Of_Month" msprop:design-time-name="850b45cc-455e-4946-bb81-17790f931cb8" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
-                  <xs:element name="Day_Of_Month_Name" msprop:FriendlyName="Day_Of_Month_Name" msprop:DbColumnName="Day_Of_Month_Name" msprop:design-time-name="f9b27cef-d005-417f-bcf8-9c76aecc1b3c" msprop:AllowGen="True" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Month_Of_Year" msprop:FriendlyName="Month_Of_Year" msprop:DbColumnName="Month_Of_Year" msprop:design-time-name="a8c45b17-c29c-4d84-a93c-941a65ebb4b0" msprop:AllowGen="True" type="xs:int" minOccurs="0" />
-                  <xs:element name="Month_Of_Year_Name" msprop:FriendlyName="Month_Of_Year_Name" msprop:DbColumnName="Month_Of_Year_Name" msprop:design-time-name="1ee8a279-470a-4d83-99d9-581e8a45d965" msprop:AllowGen="True" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="50" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                </xs:sequence>
-              </xs:complexType>
-            </xs:element>
             <xs:element name="Location" msprop:FriendlyName="Location" msprop:DbSchemaName="dbo" msprop:DbTableName="Location" msprop:design-time-name="a67af56a-2c1c-45dc-9599-a243646d053e" msprop:TableType="Table" msprop:AllowGen="True">
               <xs:complexType>
                 <xs:sequence>
@@ -1305,20 +1372,8 @@
                       </xs:restriction>
                     </xs:simpleType>
                   </xs:element>
-                  <xs:element name="Latitude" msprop:design-time-name="a4f1c28b-a5d8-4bfe-8a66-eab0976a4cde" msprop:DbColumnName="Latitude" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
-                  <xs:element name="Longitude" msprop:design-time-name="2c24deb5-e38c-4f2a-8da2-1b433c19b0c0" msprop:DbColumnName="Longitude" minOccurs="0">
-                    <xs:simpleType>
-                      <xs:restriction base="xs:string">
-                        <xs:maxLength value="10" />
-                      </xs:restriction>
-                    </xs:simpleType>
-                  </xs:element>
+                  <xs:element name="X" msprop:design-time-name="1cc72c68-6032-4a79-98b8-3e8387cdf815" msprop:DbColumnName="X" type="xs:double" minOccurs="0" />
+                  <xs:element name="Y" msprop:design-time-name="bd2cd702-0ea6-4d48-85e9-ea6bfbfcc6a3" msprop:DbColumnName="Y" type="xs:double" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -1346,12 +1401,16 @@
                   <xs:element name="ReportedComplaint" msprop:design-time-name="a89c38a5-4ef3-44b0-9c61-810b33fe785e" msprop:DbColumnName="ReportedComplaint" type="xs:int" minOccurs="0" />
                   <xs:element name="FinalComplaint" msprop:design-time-name="f2b08b7d-bfc9-481f-b6b3-c58300f12492" msprop:DbColumnName="FinalComplaint" type="xs:int" minOccurs="0" />
                   <xs:element name="LevelOfCare" msprop:design-time-name="e752f9ad-c78f-410d-8c7c-4a1cb4664112" msprop:DbColumnName="LevelOfCare" type="xs:int" minOccurs="0" />
-                  <xs:element name="Location" msprop:design-time-name="58764390-72b7-4e4c-bb92-9421010eccfd" msprop:DbColumnName="Location" type="xs:int" minOccurs="0" />
                   <xs:element name="DispatchDelay" msprop:design-time-name="33985c54-1e9a-4710-afc3-cae42d0881ea" msprop:DbColumnName="DispatchDelay" type="xs:int" minOccurs="0" />
                   <xs:element name="ResponseDelay" msprop:design-time-name="9b2395eb-b622-45d6-aa67-51e0135e6dec" msprop:DbColumnName="ResponseDelay" type="xs:int" minOccurs="0" />
                   <xs:element name="SceneDelay" msprop:design-time-name="e81e69cd-039c-463f-b842-2e085c7a8655" msprop:DbColumnName="SceneDelay" type="xs:int" minOccurs="0" />
                   <xs:element name="TransportDelay" msprop:design-time-name="75969e1b-f07d-4d1f-8712-08262344fcd2" msprop:DbColumnName="TransportDelay" type="xs:int" minOccurs="0" />
                   <xs:element name="TurnaroundDelay" msprop:design-time-name="b28f048a-363e-41cc-a774-b6e9fd22befb" msprop:DbColumnName="TurnaroundDelay" type="xs:int" minOccurs="0" />
+                  <xs:element name="DispatchLocation" msprop:design-time-name="0d7b8d0d-9b3d-4555-87d9-6fd052a49550" msprop:DbColumnName="DispatchLocation" type="xs:int" minOccurs="0" />
+                  <xs:element name="SceneLocation" msprop:design-time-name="c45e47dd-4a81-4458-b9c1-c03b09d77271" msprop:DbColumnName="SceneLocation" type="xs:int" minOccurs="0" />
+                  <xs:element name="DestinationLocation" msprop:design-time-name="1ea5b29f-7701-4131-811f-389c46e88ced" msprop:DbColumnName="DestinationLocation" type="xs:int" minOccurs="0" />
+                  <xs:element name="IncidentDate" msdata:ReadOnly="true" msprop:design-time-name="32861ee5-6552-4f7c-83e8-16fa679dd230" msprop:DbColumnName="IncidentDate" msprop:ComputedColumnExpression="CONVERT(DATE, IncidentDateTime)" msprop:Description="Extracts just the date portion from the datetime value" msprop:IsLogical="True" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="IncidentTime" msdata:ReadOnly="true" msprop:design-time-name="65ac5060-14e9-4e78-aaa9-54af739235c1" msprop:DbColumnName="IncidentTime" msprop:ComputedColumnExpression="CONVERT(smalldatetime, CONVERT(time, IncidentDateTime))" msprop:Description="" msprop:IsLogical="True" type="xs:dateTime" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -1369,6 +1428,8 @@
                   <xs:element name="FinalComplaint" msprop:design-time-name="9865217d-2a06-4eaf-874e-3034929ef4c5" msprop:DbColumnName="FinalComplaint" type="xs:int" minOccurs="0" />
                   <xs:element name="LevelOfCare" msprop:design-time-name="a8d9a63b-da61-4f07-b30f-3ef0c089c61e" msprop:DbColumnName="LevelOfCare" type="xs:int" minOccurs="0" />
                   <xs:element name="Location" msprop:design-time-name="65ab5ca9-324e-4d56-8664-6ff8ad304476" msprop:DbColumnName="Location" type="xs:int" minOccurs="0" />
+                  <xs:element name="IncidentDate" msdata:ReadOnly="true" msprop:design-time-name="00692cc6-b311-4fab-a7ac-29ea36746946" msprop:DbColumnName="IncidentDate" msprop:ComputedColumnExpression="CONVERT(DATE, IncidentDateTime)" msprop:Description="" msprop:IsLogical="True" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="IncidentTime" msdata:ReadOnly="true" msprop:design-time-name="50d352fe-1857-4598-9dbf-9c56f903ae04" msprop:DbColumnName="IncidentTime" msprop:ComputedColumnExpression="CONVERT(smalldatetime, CONVERT(time, IncidentDateTime))" msprop:Description="" msprop:IsLogical="True" type="xs:dateTime" minOccurs="0" />
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
@@ -1485,12 +1546,79 @@
                 </xs:sequence>
               </xs:complexType>
             </xs:element>
+            <xs:element name="dbo_Date" msprop:FriendlyName="Date" msprop:DbSchemaName="dbo" msprop:DbTableName="Date" msprop:design-time-name="03173f29-db06-44d3-be58-b7d0aa01d60b" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="PK_Date" msprop:FriendlyName="PK_Date" msprop:DbColumnName="PK_Date" msprop:design-time-name="3b864a90-6ce7-42a2-a389-e150c402cb25" type="xs:dateTime" />
+                  <xs:element name="Date_Name" msprop:FriendlyName="Date_Name" msprop:DbColumnName="Date_Name" msprop:design-time-name="e949ec6e-d618-418d-b3ac-698add84c505" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Year" msprop:FriendlyName="Year" msprop:DbColumnName="Year" msprop:design-time-name="4b0cc147-765c-4569-8d43-e56fb5afd50a" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Year_Name" msprop:FriendlyName="Year_Name" msprop:DbColumnName="Year_Name" msprop:design-time-name="8100c65b-83e8-487f-bcec-8f1daf66243a" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Month" msprop:FriendlyName="Month" msprop:DbColumnName="Month" msprop:design-time-name="bb5352eb-0d0b-4676-926b-c70bad6d6461" type="xs:dateTime" minOccurs="0" />
+                  <xs:element name="Month_Name" msprop:FriendlyName="Month_Name" msprop:DbColumnName="Month_Name" msprop:design-time-name="e4ced586-ba87-493e-a30c-74006c9ff594" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Day_Of_Year" msprop:FriendlyName="Day_Of_Year" msprop:DbColumnName="Day_Of_Year" msprop:design-time-name="c164c8bd-a5b5-4093-9f68-972382c53e88" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day_Of_Year_Name" msprop:FriendlyName="Day_Of_Year_Name" msprop:DbColumnName="Day_Of_Year_Name" msprop:design-time-name="d45d55e3-f6d9-4d61-9eb2-9a7b301e8f2c" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Day_Of_Month" msprop:FriendlyName="Day_Of_Month" msprop:DbColumnName="Day_Of_Month" msprop:design-time-name="95abaf04-3ba8-4ba3-b41f-e69210c4b363" type="xs:int" minOccurs="0" />
+                  <xs:element name="Day_Of_Month_Name" msprop:FriendlyName="Day_Of_Month_Name" msprop:DbColumnName="Day_Of_Month_Name" msprop:design-time-name="0b0ff113-77a3-4ee9-900e-76bc8cb13c5d" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                  <xs:element name="Month_Of_Year" msprop:FriendlyName="Month_Of_Year" msprop:DbColumnName="Month_Of_Year" msprop:design-time-name="19a160ac-5be5-4b4d-8dd2-c8b0b59b5dc7" type="xs:int" minOccurs="0" />
+                  <xs:element name="Month_Of_Year_Name" msprop:FriendlyName="Month_Of_Year_Name" msprop:DbColumnName="Month_Of_Year_Name" msprop:design-time-name="d318a824-5eb3-4433-840e-56f51068de38" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="50" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
+            <xs:element name="dbo_Time" msprop:FriendlyName="Time" msprop:DbSchemaName="dbo" msprop:DbTableName="Time" msprop:design-time-name="e40a372b-5971-4407-9b2c-d9d53659977a" msprop:TableType="Table">
+              <xs:complexType>
+                <xs:sequence>
+                  <xs:element name="Id" msprop:FriendlyName="Id" msprop:DbColumnName="Id" msprop:design-time-name="42df238c-862f-40dc-8c8a-1cff054335c3" type="xs:dateTime" />
+                  <xs:element name="Hour" msprop:FriendlyName="Hour" msprop:DbColumnName="Hour" msprop:design-time-name="4eaca574-1306-4102-8d7a-1bbf94c36058" type="xs:int" />
+                  <xs:element name="Minute" msprop:FriendlyName="Minute" msprop:DbColumnName="Minute" msprop:design-time-name="049c23ca-54df-4b33-a697-2933ef45b339" type="xs:int" />
+                  <xs:element name="Second" msprop:FriendlyName="Second" msprop:DbColumnName="Second" msprop:design-time-name="390f703a-b3d7-47a5-b139-25fb74ff82a3" type="xs:int" />
+                  <xs:element name="TimeOfDay" msprop:design-time-name="f6e6facb-fb7a-49ee-a2a8-f0f55fed2298" msprop:DbColumnName="TimeOfDay" minOccurs="0">
+                    <xs:simpleType>
+                      <xs:restriction base="xs:string">
+                        <xs:maxLength value="20" />
+                      </xs:restriction>
+                    </xs:simpleType>
+                  </xs:element>
+                </xs:sequence>
+              </xs:complexType>
+            </xs:element>
           </xs:choice>
         </xs:complexType>
-        <xs:unique name="PK_Time" msprop:AllowGen="True" msdata:PrimaryKey="true">
-          <xs:selector xpath=".//Time" />
-          <xs:field xpath="Date" />
-        </xs:unique>
         <xs:unique name="Constraint1" msdata:PrimaryKey="true">
           <xs:selector xpath=".//Location" />
           <xs:field xpath="LocationId" />
@@ -1523,30 +1651,113 @@
           <xs:selector xpath=".//dbo_UnitCrewMember" />
           <xs:field xpath="UnitCrewMemberId" />
         </xs:unique>
+        <xs:unique name="dbo_Date_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Date" />
+          <xs:field xpath="PK_Date" />
+        </xs:unique>
+        <xs:unique name="dbo_Time_Constraint1" msdata:ConstraintName="Constraint1" msdata:PrimaryKey="true">
+          <xs:selector xpath=".//dbo_Time" />
+          <xs:field xpath="Id" />
+        </xs:unique>
+        <xs:keyref name="CardiacCareTiming-Time2" refer="dbo_Date_Constraint1">
+          <xs:selector xpath=".//CardiacCareTiming" />
+          <xs:field xpath="IncidentDateTime" />
+        </xs:keyref>
+        <xs:keyref name="CardiacCareTiming-PrimaryCrewMember" refer="dbo_UnitCrewMember_Constraint1">
+          <xs:selector xpath=".//CardiacCareTiming" />
+          <xs:field xpath="PrimaryCrewMember" />
+        </xs:keyref>
+        <xs:keyref name="CardiacCareTiming-Unit" refer="dbo_Unit_Constraint1">
+          <xs:selector xpath=".//CardiacCareTiming" />
+          <xs:field xpath="Unit" />
+        </xs:keyref>
+        <xs:keyref name="CardiacCareTiming_FinalComplaint" refer="dbo_Complaint_Constraint1">
+          <xs:selector xpath=".//CardiacCareTiming" />
+          <xs:field xpath="FinalComplaint" />
+        </xs:keyref>
+        <xs:keyref name="CardiacCareTiming_SecondaryCrewMember" refer="dbo_UnitCrewMember_Constraint1">
+          <xs:selector xpath=".//CardiacCareTiming" />
+          <xs:field xpath="SecondaryCrewMember" />
+        </xs:keyref>
+        <xs:keyref name="CardiacCareTiming-LevelOfCare" refer="dbo_LevelOfCare_Constraint1">
+          <xs:selector xpath=".//CardiacCareTiming" />
+          <xs:field xpath="LevelOfCare" />
+        </xs:keyref>
+        <xs:keyref name="CardiacCareTiming_ReportedComplaint" refer="dbo_Complaint_Constraint1">
+          <xs:selector xpath=".//CardiacCareTiming" />
+          <xs:field xpath="ReportedComplaint" />
+        </xs:keyref>
+        <xs:keyref name="CardiacCareTiming-Location" refer="Constraint1">
+          <xs:selector xpath=".//CardiacCareTiming" />
+          <xs:field xpath="Location" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings-Time2" refer="dbo_Date_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="IncidentDateTime" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_SceneDelay" refer="dbo_Delay_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="SceneDelay" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_TransportDelay" refer="dbo_Delay_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="TransportDelay" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_SecondaryCrewMember" refer="dbo_UnitCrewMember_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="SecondaryCrewMember" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_DestinationLocation" refer="Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="DestinationLocation" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings-PrimaryCrewMember" refer="dbo_UnitCrewMember_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="PrimaryCrewMember" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_FinalComplaint" refer="dbo_Complaint_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="FinalComplaint" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_SceneLocation" refer="Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="SceneLocation" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_InitialComplaint" refer="dbo_Complaint_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="ReportedComplaint" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_ResponseDelay" refer="dbo_Delay_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="ResponseDelay" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_DispatchLocation" refer="Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="DispatchLocation" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings-Unit" refer="dbo_Unit_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="Unit" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_DispatchDelay" refer="dbo_Delay_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="DispatchDelay" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings_TurnaroundDelay" refer="dbo_Delay_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="TurnaroundDelay" />
+        </xs:keyref>
+        <xs:keyref name="CallResponseTimings-LevelOfCare" refer="dbo_LevelOfCare_Constraint1">
+          <xs:selector xpath=".//CallResponseTimings" />
+          <xs:field xpath="LevelOfCare" />
+        </xs:keyref>
       </xs:element>
       <xs:annotation>
         <xs:appinfo>
-          <msdata:Relationship name="CallResponseTimings-Complaint" msdata:parent="dbo_Complaint" msdata:child="CallResponseTimings" msdata:parentkey="ComplaintId" msdata:childkey="ReportedComplaint" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-Complaint1" msdata:parent="dbo_Complaint" msdata:child="CallResponseTimings" msdata:parentkey="ComplaintId" msdata:childkey="FinalComplaint" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-Time" msdata:parent="Time" msdata:child="CallResponseTimings" msdata:parentkey="Date" msdata:childkey="IncidentDateTime" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-Unit" msdata:parent="dbo_Unit" msdata:child="CallResponseTimings" msdata:parentkey="UnitId" msdata:childkey="Unit" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-UnitCrewMember" msdata:parent="dbo_UnitCrewMember" msdata:child="CallResponseTimings" msdata:parentkey="UnitCrewMemberId" msdata:childkey="PrimaryCrewMember" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-UnitCrewMember1" msdata:parent="dbo_UnitCrewMember" msdata:child="CallResponseTimings" msdata:parentkey="UnitCrewMemberId" msdata:childkey="SecondaryCrewMember" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-LevelOfCare" msdata:parent="dbo_LevelOfCare" msdata:child="CallResponseTimings" msdata:parentkey="LevelOfCareId" msdata:childkey="LevelOfCare" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-Location" msdata:parent="Location" msdata:child="CallResponseTimings" msdata:parentkey="LocationId" msdata:childkey="Location" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-Delay" msdata:parent="dbo_Delay" msdata:child="CallResponseTimings" msdata:parentkey="DelayId" msdata:childkey="DispatchDelay" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-Delay1" msdata:parent="dbo_Delay" msdata:child="CallResponseTimings" msdata:parentkey="DelayId" msdata:childkey="ResponseDelay" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-Delay2" msdata:parent="dbo_Delay" msdata:child="CallResponseTimings" msdata:parentkey="DelayId" msdata:childkey="SceneDelay" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-Delay3" msdata:parent="dbo_Delay" msdata:child="CallResponseTimings" msdata:parentkey="DelayId" msdata:childkey="TransportDelay" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CallResponseTimings-Delay4" msdata:parent="dbo_Delay" msdata:child="CallResponseTimings" msdata:parentkey="DelayId" msdata:childkey="TurnaroundDelay" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CardiacCareTiming-Time" msdata:parent="Time" msdata:child="CardiacCareTiming" msdata:parentkey="Date" msdata:childkey="IncidentDateTime" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CardiacCareTiming-Unit" msdata:parent="dbo_Unit" msdata:child="CardiacCareTiming" msdata:parentkey="UnitId" msdata:childkey="Unit" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CardiacCareTiming-UnitCrewMember" msdata:parent="dbo_UnitCrewMember" msdata:child="CardiacCareTiming" msdata:parentkey="UnitCrewMemberId" msdata:childkey="PrimaryCrewMember" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CardiacCareTiming-UnitCrewMember1" msdata:parent="dbo_UnitCrewMember" msdata:child="CardiacCareTiming" msdata:parentkey="UnitCrewMemberId" msdata:childkey="SecondaryCrewMember" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CardiacCareTiming-Complaint" msdata:parent="dbo_Complaint" msdata:child="CardiacCareTiming" msdata:parentkey="ComplaintId" msdata:childkey="ReportedComplaint" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CardiacCareTiming-Complaint1" msdata:parent="dbo_Complaint" msdata:child="CardiacCareTiming" msdata:parentkey="ComplaintId" msdata:childkey="FinalComplaint" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CardiacCareTiming-LevelOfCare" msdata:parent="dbo_LevelOfCare" msdata:child="CardiacCareTiming" msdata:parentkey="LevelOfCareId" msdata:childkey="LevelOfCare" msprop:Description="" msprop:IsLogical="True" />
-          <msdata:Relationship name="CardiacCareTiming-Location" msdata:parent="Location" msdata:child="CardiacCareTiming" msdata:parentkey="LocationId" msdata:childkey="Location" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="CallResponseTimings-Time" msdata:parent="dbo_Date" msdata:child="CallResponseTimings" msdata:parentkey="PK_Date" msdata:childkey="IncidentDate" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="CallResponseTimings-Time1" msdata:parent="dbo_Time" msdata:child="CallResponseTimings" msdata:parentkey="Id" msdata:childkey="IncidentTime" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="CardiacCareTiming-Time" msdata:parent="dbo_Date" msdata:child="CardiacCareTiming" msdata:parentkey="PK_Date" msdata:childkey="IncidentDate" msprop:Description="" msprop:IsLogical="True" />
+          <msdata:Relationship name="CardiacCareTiming-Time1" msdata:parent="dbo_Time" msdata:child="CardiacCareTiming" msdata:parentkey="Id" msdata:childkey="IncidentTime" msprop:Description="" msprop:IsLogical="True" />
         </xs:appinfo>
       </xs:annotation>
     </xs:schema>

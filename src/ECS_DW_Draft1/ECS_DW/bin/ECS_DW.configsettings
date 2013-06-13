@@ -13,9 +13,6 @@
     </DataSources>
     <Dimensions>
       <Dimension>
-        <ID>Time</ID>
-      </Dimension>
-      <Dimension>
         <ID>Unit</ID>
       </Dimension>
       <Dimension>
@@ -32,6 +29,12 @@
       </Dimension>
       <Dimension>
         <ID>Location</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Date</ID>
+      </Dimension>
+      <Dimension>
+        <ID>Time</ID>
       </Dimension>
     </Dimensions>
     <Cubes>
