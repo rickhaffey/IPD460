@@ -8,7 +8,7 @@
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramLayout</Name>
       <Value>
         <dds xmlns="">
-          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3327" scrolltop="-7329" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="8784" y="16563" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
+          <diagram fontclsid="{0BE35203-8F91-11CE-9DE3-00AA004BB851}" mouseiconclsid="{0BE35204-8F91-11CE-9DE3-00AA004BB851}" defaultlayout="MSDDS.Rectilinear" defaultlineroute="MSDDS.Rectilinear" version="7" nextobject="3" scale="100" pagebreakanchorx="0" pagebreakanchory="0" pagebreaksizex="0" pagebreaksizey="0" scrollleft="-3327" scrolltop="-7329" gridx="150" gridy="150" marginx="5000" marginy="5000" zoom="100" x="20373" y="16563" backcolor="15334399" defaultpersistence="2" PrintPageNumbersMode="3" PrintMarginTop="0" PrintMarginBottom="635" PrintMarginLeft="0" PrintMarginRight="0" marqueeselectionmode="0" mousepointer="0" snaptogrid="0" autotypeannotation="1" showscrollbars="0" viewpagebreaks="0" donotforceconnectorsbehindshapes="1" backpictureclsid="{00000000-0000-0000-0000-000000000000}">
             <font>
               <ddsxmlobjectstreamwrapper binary="01000000900144420100065461686f6d61" />
             </font>
@@ -19,7 +19,7 @@
           <layoutmanager>
             <ddsxmlobj />
           </layoutmanager>
-          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Location" left="-2229" top="-5847" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3201" height="5450" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
+          <ddscontrol controlprogid="DdsShapes.DdsObjectManagedBridge.2" tooltip="Location" left="-2785" top="-6985" logicalid="2" controlid="1" masterid="0" hint1="0" hint2="0" width="3201" height="5450" noresize="0" nomove="0" nodefaultattachpoints="0" autodrag="1" usedefaultiddshape="1" selectable="1" showselectionhandles="1" allownudging="1" isannotation="0" dontautolayout="0" groupcollapsed="0" tabstop="1" visible="1" snaptogrid="0">
             <control>
               <ddsxmlobjectstreaminitwrapper binary="00080000810c00004a150000" />
             </control>
@@ -55,11 +55,11 @@
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingLeft</Name>
-      <Value>-2229</Value>
+      <Value>-2785</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramBoundingTop</Name>
-      <Value>-5847</Value>
+      <Value>-6985</Value>
     </Annotation>
     <Annotation>
       <Name>http://schemas.microsoft.com/DataWarehouse/Designer/1.0:DiagramZoom</Name>
@@ -73,7 +73,6 @@
             <Shape Id="Location Id" Expanded="false">
               <Attributes>
                 <Attribute Id="Location Id" />
-                <Attribute Id="Location Name" />
                 <Attribute Id="Street" />
               </Attributes>
               <Position x="20" y="20" />
@@ -136,38 +135,20 @@
         </Source>
       </NameColumn>
       <AttributeRelationships>
-        <AttributeRelationship dwd:design-time-name="b0b1a0c4-936b-4cc8-86ef-d5535c68050b">
-          <AttributeID>Location Name</AttributeID>
-          <Name>Location Name</Name>
-        </AttributeRelationship>
         <AttributeRelationship dwd:design-time-name="074e4617-4105-4b18-96e9-01c9857f8f8b">
           <AttributeID>Street</AttributeID>
           <Name>Street</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="2838a6ee-82c1-4fc9-8d40-aef229939659">
+        <AttributeRelationship dwd:design-time-name="2528c802-8552-4498-89ae-26f181ee9e84">
           <AttributeID>Zip Code</AttributeID>
           <Name>Zip Code</Name>
         </AttributeRelationship>
-        <AttributeRelationship dwd:design-time-name="f9dca87d-07aa-4d89-8005-503c19c6f760">
+        <AttributeRelationship dwd:design-time-name="062b142f-901a-46d1-82c8-ebb171df6f45">
           <AttributeID>Location Type</AttributeID>
           <Name>Location Type</Name>
         </AttributeRelationship>
       </AttributeRelationships>
-      <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
-    </Attribute>
-    <Attribute dwd:design-time-name="6005d4c7-771c-4196-b4be-abb0edfed4b5">
-      <ID>Location Name</ID>
-      <Name>Location Name</Name>
-      <KeyColumns>
-        <KeyColumn dwd:design-time-name="2278da8b-0a9c-4c9a-9312-77aa6d140921">
-          <DataType>WChar</DataType>
-          <DataSize>50</DataSize>
-          <Source xsi:type="ColumnBinding" dwd:design-time-name="56ab3896-9d05-4c29-87dc-1888c4c30274">
-            <TableID>Location</TableID>
-            <ColumnID>LocationName</ColumnID>
-          </Source>
-        </KeyColumn>
-      </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="8e467f78-58b5-4ee1-afb7-7ed876c43b32">
@@ -183,6 +164,7 @@
           </Source>
         </KeyColumn>
       </KeyColumns>
+      <AttributeHierarchyVisible>false</AttributeHierarchyVisible>
       <ddl200:ProcessingState>Unprocessed</ddl200:ProcessingState>
     </Attribute>
     <Attribute dwd:design-time-name="b36680c7-9e8f-4f66-9752-1ce2d2c42e88">
@@ -266,6 +248,11 @@
       <ID>Hierarchy</ID>
       <Name>Location Hierarchy</Name>
       <Levels>
+        <Level dwd:design-time-name="cdceb4d5-ca90-4320-b674-732941b08098">
+          <ID>Location Type</ID>
+          <Name>Location Type</Name>
+          <SourceAttributeID>Location Type</SourceAttributeID>
+        </Level>
         <Level dwd:design-time-name="da17fbd5-3759-4074-94c3-df8357269365">
           <ID>State</ID>
           <Name>State</Name>
@@ -281,20 +268,9 @@
           <Name>Zip Code</Name>
           <SourceAttributeID>Zip Code</SourceAttributeID>
         </Level>
-      </Levels>
-    </Hierarchy>
-    <Hierarchy dwd:design-time-name="f10dc5c5-6ca9-47b7-8e39-37807f5b0d44">
-      <ID>Hierarchy 1</ID>
-      <Name>Location Type Hierarchy</Name>
-      <Levels>
-        <Level dwd:design-time-name="067a8acc-b32e-4b1d-8c15-0348aa4310d5">
-          <ID>Location Type</ID>
-          <Name>Location Type</Name>
-          <SourceAttributeID>Location Type</SourceAttributeID>
-        </Level>
-        <Level dwd:design-time-name="fecaeb49-b9b8-4568-8e54-70f36217e4f8">
-          <ID>Location Id</ID>
-          <Name>Location Id</Name>
+        <Level dwd:design-time-name="dec896b2-59bc-477e-a8ec-8dae2e09ca3b">
+          <ID>Location</ID>
+          <Name>Location</Name>
           <SourceAttributeID>Location Id</SourceAttributeID>
         </Level>
       </Levels>
